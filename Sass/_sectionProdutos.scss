@@ -24,22 +24,35 @@
   font-size: 4rem;
 }
 
-.section-produtos-item button {
-  font-size: 3.2rem;
-  padding: 1rem 2rem;
-  border-radius: 1.2rem;
-  background-color: $cor1-fundo;
-  box-shadow: 6px 6px 5px $cor3-fundo;
-  transition: 0.2s ease-in-out;
-}
-
-.section-produtos-item button:hover {
-  transform: scale(1.2);
-}
-
 .section-produtos-item img {
   max-width: 400px;
   height: 600px;
   border-radius: 3rem;
   margin: 2rem 0 3rem 0;
+}
+
+.section-produtos h3 {
+  text-align: center;
+  font-size: 4.8rem;
+  font-weight: bold;
+  margin: 6rem auto;
+  color: $cor1-texto;
+}
+
+.button-produtos {
+  display: block;
+  font-size: 5rem;
+  font-weight: bold;
+  color: $cor2-texto;
+  padding: 1rem 2rem;
+  border: 5px solid $cor4-fundo;
+  border-radius: 1.2rem;
+  background-color: $cor5-fundo;
+  box-shadow: 6px 6px 5px $cor3-fundo;
+  margin: 0 auto;
+  transition: 0.2s ease-in-out;
+}
+
+.button-produtos:hover {
+  transform: scale(1.2);
 }
