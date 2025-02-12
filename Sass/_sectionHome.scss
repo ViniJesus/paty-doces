@@ -1,0 +1,29 @@
+.section-home {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 20px 0 40px 0;
+}
+
+.section-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: $cor1-texto;
+}
+
+.section-item img {
+  max-width: 600px;
+}
+
+.section-item .title {
+  font-size: 3rem;
+  max-width: 700px;
+  text-align: center;
+}
+
+.section-item p {
+  @extend .title;
+  font-size: 2rem;
+  margin-bottom: 3rem;
+}

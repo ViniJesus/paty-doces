@@ -1,0 +1,35 @@
+@import "variaveis";
+@import "header";
+@import "sectionHome";
+@import "sectionProdutos";
+
+:root {
+  font-size: $font-size-texto;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: $cor2-fundo;
+  color: $cor1-texto;
+  font-family: $font-poppins;
+}
+
+a,
+ul,
+ol {
+  text-decoration: none;
+  list-style: none;
+}
+
+img {
+  display: block;
+}

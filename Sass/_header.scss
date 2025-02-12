@@ -1,0 +1,26 @@
+.cabecalho {
+  background-color: $cor1-fundo;
+  font-size: 2rem;
+}
+
+.cabecalho nav ul {
+  padding: 3rem;
+
+  display: flex;
+  justify-content: center;
+  gap: 3rem;
+}
+
+.cabecalho nav ul li {
+  transition: 0.2s ease-in-out;
+}
+
+.cabecalho nav ul li a {
+  color: $cor1-texto;
+}
+
+.cabecalho nav ul li:hover {
+  transform: scale(1.2);
+  color: black;
+  text-decoration: underline;
+}
