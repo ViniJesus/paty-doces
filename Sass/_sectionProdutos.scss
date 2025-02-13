@@ -11,8 +11,9 @@
 
 .section-produtos-container {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   align-items: end;
+  gap: 10rem;
 }
 
 .section-produtos-item {
@@ -25,8 +26,8 @@
 }
 
 .section-produtos-item img {
-  max-width: 400px;
-  height: 600px;
+  max-width: 500px;
+  height: 400px;
   border-radius: 3rem;
   margin: 2rem 0 3rem 0;
 }
