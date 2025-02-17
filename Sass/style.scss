@@ -5,6 +5,7 @@
 @import "produtoTela";
 @import "contato";
 @import "rodape";
+@import "cardapioTela";
 
 :root {
   font-size: $font-size-texto;
@@ -37,16 +38,27 @@ img {
   display: block;
 }
 
+@keyframes entradaBotao {
+  from {
+    top: 950px;
+  }
+  to {
+    top: 870px;
+  }
+}
+
 body .return-home {
-  padding: 10px 18px;
+  padding: 5px 18px;
   font-size: 3rem;
   font-weight: bold;
   background-color: $cor5-fundo;
   color: $cor2-texto;
   border: none;
-  border-radius: 1.2rem;
+  box-shadow: 5px 5px 8px $cor4-fundo;
   position: fixed;
   top: 870px;
   right: 40px;
   display: none;
+  animation-name: entradaBotao;
+  animation-duration: 0.5s;
 }

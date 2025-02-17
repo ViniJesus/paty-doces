@@ -1,5 +1,6 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,26 +12,115 @@
         rel="stylesheet">
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
+
 <body>
     <main class="container-produtos">
         <section class="section-select-produto">
             <div class="container-item-produtos">
-                <input class="input-checkbox" type="checkbox" name="bolo" id="bolo">
-                <label for="bolo">Bolo</label>
-                <input class="input-checkbox" type="checkbox" name="doce" id="doce">
-                <label for="doce">Doce</label>
-                <input class="input-checkbox" type="checkbox" name="salgado" id="salgado">
-                <label for="salgado">Salgado</label>
-        
+                <div>
+                    <input class="input-checkbox" type="checkbox" name="bolo" id="bolo">
+                    <label for="bolo">Bolo</label>
+                </div>
+                <div>
+                    <input class="input-checkbox" type="checkbox" name="doce" id="doce">
+                    <label for="doce">Doce</label>
+                </div>
+                <div>
+                    <input class="input-checkbox" type="checkbox" name="salgado" id="salgado">
+                    <label for="salgado">Salgado</label>
+                </div>
             </div>
         </section>
+
+        <button id="cardapio">Cardápio</button>
+
         <section class="section-form-produto">
             <div>
-                <form action=""></form>
+                <form>
+                    <label for="massa">Massa</label>
+                    <select name="massa" id="massa">
+                        <option value="chocolate">Chocolate</option>
+                        <option value="branca">Branca</option>
+                    </select>
+                    <label for="recheio">Recheio</label>
+                    <select name="recheio" id="recheio">
+                        <option value="doce_de_leite">Doce de leite</option>
+                        <option value="creme_belga">Creme belga</option>
+                        <option value="mouse_doce_de_leite">Mouse de Doce de leite</option>
+                        <option value="doce_de_leite_abacaxi">Doce de leite com abacaxi</option>
+                        <option value="doce_de_leite_nozes_ameixa">Doce de leite com nozes ou ameixa
+                        </option>
+                        <option value="doce_de_leite_morangos">Doce de leite com morangos</option>
+                        <option value="creme_belga_trufado">Creme belga Trufado</option>
+                        <option value="creme_belga_abacaxi_pessego">Creme belga com abacaxi ou pêssego
+                        </option>
+                        <option value="brigadeiro_tradicional">Brigadeiro tradicional</option>
+                        <option value="brigadeiro_branco">Brigadeiro branco</option>
+                        <option value="bicho_de_pe_prestigio">Bicho de pé, Prestígio</option>
+                        <option value="mouse_varios">Mouse de doce de leite c/ morangos, Mouse de maracujá, Mouse limão
+                        </option>
+                        <option value="brigadeiro_cereja">Brigadeiro de cereja com pedaços de cereja
+                        </option>
+                        <option value="mouse_chocolate">Mouse de chocolate</option>
+                        <option value="abacaxi_coco">Abacaxi com coco</option>
+                        <option value="brigadeiro_morangos">Brigadeiro com morangos</option>
+                        <option value="brigadeiro_nutella">Brigadeiro com Nutella</option>
+                        <option value="leite_ninho_trufado">Leite ninho trufado</option>
+                        <option value="leite_ninho_trufado_varios">Leite ninho trufado com pedaços de chocolate branco,
+                            Óreo, Kit Kat, Morangos, Nutella ou Uvas verdes</option>
+                        <option value="floresta_bca_negra">Floresta branca ou negra</option>
+                        <option value="trufado_tradicional">Trufado tradicional</option>
+                        <option value="frutas_vermelhas">Frutas vermelhas</option>
+                    </select>
+                </form>
+            </div>
+            <div>
+                <form>
+                    <label for="doces">Docinhos</label>
+                    <select name="doces" id="doces">
+                        <option value="brigadeiro_cento">Brigadeiro</option>
+                        <option value="bicho_de_pe_cento">Bicho de pé</option>
+                        <option value="beijinho_cento">Beijinho</option>
+                        <option value="pacoquinha_cento">Paçoquinha</option>
+                        <option value="cajuzinho_cento">Cajuzinho</option>
+                        <option value="churros_cento">Churros</option>
+                        <option value="brigadeiro_nutella_cento">Brigadeiro de Nutella</option>
+                        <option value="brigadeiro_ninho_nutella_cento">Brigadeiro leite ninho decorado com Nutella
+                        </option>
+                        <option value="brigadeiro_dois_amores_cento">Brigadeiro dois amores (beijinho ou brigadeiro
+                            branco + brigadeiro tradicional enrolados no açúcar cristal ou refinado)
+                        </option>
+                    </select>
+                </form>
+            </div>
+            <div>
+                <form>
+                    <label for="salgados_fritos">Salgados Fritos</label>
+                    <select name="salgados_fritos" id="salgados_fritos">
+                        <option value="coxinhas">Coxinhas</option>
+                        <option value="risoles_queijo_presunto">Risoles queijo e presunto</option>
+                        <option value="bolinhas_queijo">Bolinhas de queijo</option>
+                        <option value="enroladinho_salsicha">Enroladinho de salsicha</option>
+                        <option value="croquete_carne_frango">Croquete de carne ou frango</option>
+                        <option value="bolinho_carne">Bolinho de carne</option>
+                        <option value="kibe">Kibe</option>
+                    </select>
+                    <label for="salgados_assados">Salgados Assados</label>
+                    <select name="salgados_assados" id="salgados_assados">
+                        <option value="esfiha_carne">Esfiha de carne</option>
+                        <option value="esfiha_frango">Esfiha de frango</option>
+                        <option value="esfiha_calabresa_queijo">Esfiha de calabresa com queijo</option>
+                        <option value="mini_pizza_mussarela">Mini pizza de mussarela</option>
+                        <option value="mini_pizza_presunto_queijo">Mini pizza de presunto e queijo</option>
+                        <option value="mini_pizza_calabresa">Mini pizza de calabresa</option>
+                        <option value="enroladinho_salsicha">Enroladinho de salsicha</option>
+                    </select>
+                </form>
             </div>
         </section>
     </main>
-    
-    <input class="input-checkbox" type="checkbox" name="salgado" id="salgado">
+
+    <script src="assets/js/script.js"></script>
 </body>
+
 </html>
