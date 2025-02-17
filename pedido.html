@@ -14,6 +14,11 @@
 </head>
 
 <body>
+
+    <div>
+        <a href="javascript:history.back()" class="btn-voltar"><span>⬅</span></a>
+    </div>
+
     <main class="container-produtos">
         <section class="section-select-produto">
             <div class="container-item-produtos">
@@ -72,6 +77,19 @@
                         <option value="trufado_tradicional">Trufado tradicional</option>
                         <option value="frutas_vermelhas">Frutas vermelhas</option>
                     </select>
+                    <label for="pesagem">Peso (KG)</label>
+                    <select name="pesagem" id="pesagem">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                        <option value="8">8</option>
+                        <option value="9">9</option>
+                        <option value="10">10</option>
+                    </select>
                 </form>
             </div>
             <div>
@@ -90,6 +108,15 @@
                         <option value="brigadeiro_dois_amores_cento">Brigadeiro dois amores (beijinho ou brigadeiro
                             branco + brigadeiro tradicional enrolados no açúcar cristal ou refinado)
                         </option>
+                    </select>
+                    <label for="quantidade">Quantidade</label>
+                    <select name="quantidade" id="quantidade">
+                        <option value="100">100</option>
+                        <option value="200">200</option>
+                        <option value="300">300</option>
+                        <option value="400">400</option>
+                        <option value="500">500</option>
+                        <option value="600">600</option>
                     </select>
                 </form>
             </div>
@@ -115,12 +142,24 @@
                         <option value="mini_pizza_calabresa">Mini pizza de calabresa</option>
                         <option value="enroladinho_salsicha">Enroladinho de salsicha</option>
                     </select>
+                    <label for="quantidade">Quantidade</label>
+                    <select name="quantidade" id="quantidade">
+                        <option value="100">100</option>
+                        <option value="200">200</option>
+                        <option value="300">300</option>
+                        <option value="400">400</option>
+                        <option value="500">500</option>
+                        <option value="600">600</option>
+                    </select>
                 </form>
             </div>
         </section>
+
+        <p class="preco_total">R$ <span>100</span></p>
+        <button>Fazer Pedido</button>
     </main>
 
-    <script src="assets/js/script.js"></script>
+    <script src="assets/js/pedido.js"></script>
 </body>
 
 </html>

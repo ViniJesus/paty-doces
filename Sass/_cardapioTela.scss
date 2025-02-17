@@ -29,6 +29,10 @@ h1 {
     font-size: 2rem;
   }
 
+  &:nth-child(n + 3) {
+    margin-top: 10rem;
+  }
+
   .obs {
     border-bottom: 2px solid $cor3-fundo;
     padding-bottom: 0.5rem;
@@ -36,8 +40,12 @@ h1 {
   }
 
   p {
-    font-size: 1.4rem;
+    font-size: 1.8rem;
     margin: 0.5rem 0;
+  }
+
+  ul {
+    font-size: 1.6rem;
   }
 }
 
