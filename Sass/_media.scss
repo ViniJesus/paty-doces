@@ -1,4 +1,4 @@
-@media screen and (max-width: 1024px) {
+@media (max-width: 1024px) {
   .cabecalho nav ul {
     flex-direction: column;
     align-items: center;
@@ -24,7 +24,8 @@
   }
 }
 
-@media screen and (max-width: 768px) {
+@media (max-width: 768px) {
+
   .section-home {
     max-width: 100%;
     padding: 10px;
@@ -59,7 +60,32 @@
   }
 }
 
-@media screen and (max-width: 550px) {
+@media (max-width: 600px){
+  .section-produtos h1 {
+    font-size: 3rem;
+    margin: 0;
+    padding: 0;
+  }
+
+  .section-produtos h2 {
+    padding: 0;
+  }
+
+  .section-produtos h3 {
+    font-size: 3rem;
+    max-width: 400px;
+  }
+
+  .section-contato h1 {
+    font-size: 3.5rem;
+  }
+
+  .section-contato div .contato-texto h2 {
+    font-size: 3rem;
+  }
+}
+
+@media (max-width: 550px) {
   .section-home img {
     max-width: 100%; // Garante que a imagem não ultrapasse a largura da tela
     height: auto; // Mantém a proporção da imagem
@@ -68,7 +94,7 @@
   }
 }
 
-@media screen and (max-width: 480px) {
+@media (max-width: 480px) {
   .cabecalho nav ul {
     gap: 1rem;
     padding: 1rem;
