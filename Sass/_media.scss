@@ -1,0 +1,89 @@
+@media screen and (max-width: 1024px) {
+  .cabecalho nav ul {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .section-produtos-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .section-produtos-item img {
+    max-width: 90%;
+    height: auto;
+  }
+
+  .section-contato div {
+    grid-template-columns: 1fr;
+    grid-template-areas:
+      "text"
+      "form";
+    text-align: center;
+  }
+
+  .contato-forms form {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .section-home {
+    max-width: 100%;
+    padding: 10px;
+  }
+
+  .section-item .title {
+    font-size: 2.5rem;
+  }
+
+  .section-item p {
+    font-size: 1.8rem;
+  }
+
+  .button-produtos {
+    font-size: 2.5rem;
+  }
+
+  body .return-home {
+    display: none !important;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .section-home img {
+    max-width: 100%; // Garante que a imagem não ultrapasse a largura da tela
+    height: auto; // Mantém a proporção da imagem
+    display: block; // Evita espaços extras ao redor da imagem
+    margin: 0 auto; // Centraliza a imagem na tela
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .cabecalho nav ul {
+    gap: 1rem;
+    padding: 1rem;
+  }
+
+  .cabecalho nav ul li {
+    font-size: 1.6rem;
+  }
+
+  .section-produtos h1,
+  .section-produtos h3 {
+    font-size: 3rem;
+  }
+
+  .section-produtos-item h2 {
+    font-size: 2.5rem;
+  }
+
+  .button-produtos {
+    font-size: 2rem;
+    padding: 0.8rem 1.5rem;
+  }
+
+  .rodape {
+    font-size: 1.6rem;
+  }
+}

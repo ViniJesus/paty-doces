@@ -10,26 +10,29 @@
 }
 
 .section-produtos-container {
+  padding: 6rem 0;
+
   display: flex;
-  justify-content: center;
-  align-items: end;
-  gap: 10rem;
+  flex-wrap: wrap;
+  align-items: flex-end;
 }
 
 .section-produtos-item {
-  text-align: center;
+  flex: 1 1 30rem;
   color: $cor1-texto;
 }
 
 .section-produtos-item h2 {
   font-size: 4rem;
+  text-align: center;
+  margin-top: 2rem;
 }
 
 .section-produtos-item img {
-  max-width: 500px;
-  height: 400px;
+  max-width: 600px;
+  height: 500px;
   border-radius: 3rem;
-  margin: 2rem 0 3rem 0;
+  margin: 2rem auto;
 }
 
 .section-produtos h3 {

@@ -42,13 +42,15 @@
         <section class="section-form-produto">
             <div>
                 <form>
-                    <label for="massa">Massa</label>
-                    <select name="massa" id="massa">
+                    <label for="bolo-massa">Massa</label>
+                    <select name="bolo-massa" id="bolo-massa">
+                        <option value="">Selecione a massa</option>
                         <option value="chocolate">Chocolate</option>
                         <option value="branca">Branca</option>
                     </select>
                     <label for="recheio">Recheio</label>
                     <select name="recheio" id="recheio">
+                        <option value="">Selecione o recheio</option>
                         <option value="doce_de_leite">Doce de leite</option>
                         <option value="creme_belga">Creme belga</option>
                         <option value="mouse_doce_de_leite">Mouse de Doce de leite</option>
@@ -61,9 +63,13 @@
                         </option>
                         <option value="brigadeiro_tradicional">Brigadeiro tradicional</option>
                         <option value="brigadeiro_branco">Brigadeiro branco</option>
-                        <option value="bicho_de_pe_prestigio">Bicho de pé, Prestígio</option>
-                        <option value="mouse_varios">Mouse de doce de leite c/ morangos, Mouse de maracujá, Mouse limão
+                        <option value="bicho_de_pe">Bicho de pé</option>
+                        <option value="prestigio">Prestígio</option>
+                        <option value="mouse_doce_de_leite_com_morango">Mouse de doce de leite c/ morangos
                         </option>
+                        <option value="mouse_maracuja">Mouse de maracujá
+                        </option>
+                        <option value="mouse_limao">Mouse limão</option>
                         <option value="brigadeiro_cereja">Brigadeiro de cereja com pedaços de cereja
                         </option>
                         <option value="mouse_chocolate">Mouse de chocolate</option>
@@ -77,8 +83,8 @@
                         <option value="trufado_tradicional">Trufado tradicional</option>
                         <option value="frutas_vermelhas">Frutas vermelhas</option>
                     </select>
-                    <label for="pesagem">Peso (KG)</label>
-                    <select name="pesagem" id="pesagem">
+                    <label for="bolo-peso">Peso (KG)</label>
+                    <select name="bolo-peso" id="bolo-peso">
                         <option value="1">1</option>
                         <option value="2">2</option>
                         <option value="3">3</option>
@@ -94,8 +100,9 @@
             </div>
             <div>
                 <form>
-                    <label for="doces">Docinhos</label>
-                    <select name="doces" id="doces">
+                    <label for="doces-selecao">Docinhos</label>
+                    <select name="doces-selecao" id="doces-selecao">
+                        <option value="">Selecione o Sabor</option>
                         <option value="brigadeiro_cento">Brigadeiro</option>
                         <option value="bicho_de_pe_cento">Bicho de pé</option>
                         <option value="beijinho_cento">Beijinho</option>
@@ -109,8 +116,8 @@
                             branco + brigadeiro tradicional enrolados no açúcar cristal ou refinado)
                         </option>
                     </select>
-                    <label for="quantidade">Quantidade</label>
-                    <select name="quantidade" id="quantidade">
+                    <label for="doces-quantidade">Quantidade</label>
+                    <select name="doces-quantidade" id="doces-quantidade">
                         <option value="100">100</option>
                         <option value="200">200</option>
                         <option value="300">300</option>
@@ -118,12 +125,34 @@
                         <option value="500">500</option>
                         <option value="600">600</option>
                     </select>
+                    <label for="doces-finos-selecao">Doces Finos</label>
+                    <select name="doces-finos-selecao" id="doces-finos-selecao">
+                        <option value="">Selecione o Doce</option>
+                        <option value="surpresa_de_uva">Surpresa de Uva</option>
+                        <option value="olho_de_sogra">Olho de Sogra</option>
+                        <option value="mini_trufas">Mini Trufas</option>
+                        <option value="mini_trufas_com_topper">Mini Trufas com Topper</option>
+                        <option value="camafeu">Camafeu</option>
+                        <option value="bem_casado">Bem Casado</option>
+                        <option value="caixinhas_de_chocolate">Caixinhas de Chocolate</option>
+                        <option value="copinhos_de_chocolate">Copinhos de Chocolate</option>
+                    </select>
+                    <label for="doces-finos-quantidade">Quantidade</label>
+                    <select name="doces-finos-quantidade" id="doces-finos-quantidade">
+                        <option value="30">30</option>
+                        <option value="60">60</option>
+                        <option value="90">90</option>
+                        <option value="120">120</option>
+                        <option value="150">150</option>
+                        <option value="180">180</option>
+                    </select>
                 </form>
             </div>
             <div>
                 <form>
-                    <label for="salgados_fritos">Salgados Fritos</label>
-                    <select name="salgados_fritos" id="salgados_fritos">
+                    <label for="salgados-selecao-fritos">Salgados Fritos</label>
+                    <select name="salgados-selecao-fritos" id="salgados-selecao-fritos">
+                        <option value="">Selecione o salgado</option>
                         <option value="coxinhas">Coxinhas</option>
                         <option value="risoles_queijo_presunto">Risoles queijo e presunto</option>
                         <option value="bolinhas_queijo">Bolinhas de queijo</option>
@@ -132,8 +161,18 @@
                         <option value="bolinho_carne">Bolinho de carne</option>
                         <option value="kibe">Kibe</option>
                     </select>
-                    <label for="salgados_assados">Salgados Assados</label>
-                    <select name="salgados_assados" id="salgados_assados">
+                    <label for="salgados-quantidade-fritos">Quantidade</label>
+                    <select name="salgados-quantidade-fritos" id="salgados-quantidade-fritos">
+                        <option value="100">100</option>
+                        <option value="200">200</option>
+                        <option value="300">300</option>
+                        <option value="400">400</option>
+                        <option value="500">500</option>
+                        <option value="600">600</option>
+                    </select>
+                    <label for="salgados-selecao-assados">Salgados Assados</label>
+                    <select name="salgados-selecao-assados" id="salgados-selecao-assados">
+                        <option value="">Selecione o salgado</option>
                         <option value="esfiha_carne">Esfiha de carne</option>
                         <option value="esfiha_frango">Esfiha de frango</option>
                         <option value="esfiha_calabresa_queijo">Esfiha de calabresa com queijo</option>
@@ -142,8 +181,8 @@
                         <option value="mini_pizza_calabresa">Mini pizza de calabresa</option>
                         <option value="enroladinho_salsicha">Enroladinho de salsicha</option>
                     </select>
-                    <label for="quantidade">Quantidade</label>
-                    <select name="quantidade" id="quantidade">
+                    <label for="salgados-quantidade-assados">Quantidade</label>
+                    <select name="salgados-quantidade-assados" id="salgados-quantidade-assados">
                         <option value="100">100</option>
                         <option value="200">200</option>
                         <option value="300">300</option>
@@ -155,7 +194,7 @@
             </div>
         </section>
 
-        <p class="preco_total">R$ <span>100</span></p>
+        <p class="preco_total">R$ <span></span></p>
         <button>Fazer Pedido</button>
     </main>
 
