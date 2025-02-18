@@ -23,18 +23,15 @@
 }
 
 .section-contato div {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-areas: "form text";
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 10rem;
 }
 
 .contato-forms {
   padding: 6rem 0;
-  grid-area: form;
-}
-
-.contato-texto {
-  grid-area: text;
 }
 
 .contato-forms form {

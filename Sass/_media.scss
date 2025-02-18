@@ -15,11 +15,8 @@
   }
 
   .section-contato div {
-    grid-template-columns: 1fr;
-    grid-template-areas:
-      "text"
-      "form";
-    text-align: center;
+    flex: 1 1 300px;
+    margin: 0 20px;
   }
 
   .contato-forms form {
@@ -47,6 +44,18 @@
 
   body .return-home {
     display: none !important;
+  }
+
+  .contato-forms {
+    padding: 0;
+    margin: 0;
+  }
+  .contato-forms form {
+    width: 100%;
+  }
+
+  .contato-texto {
+    padding: 1rem 0 0 0 ;
   }
 }
 
