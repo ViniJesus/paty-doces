@@ -4,7 +4,7 @@
 
 Bem-vindo ao projeto **Paty Doces**, uma confeitaria dedicada a trazer delícias irresistíveis para todas as ocasiões! Aqui você encontra bolos, doces e salgados feitos com carinho e ingredientes selecionados.
 
-![alt text](image.png)
+![alt text](assets/img/image.png)
 
 ---
 
@@ -34,7 +34,7 @@ O site utiliza **Google Fonts (Poppins)** para uma tipografia moderna e elegante
 
 ### - Calculo do preço final com base nas suas escolhas
 
-![alt text](image-1.png)
+![alt text](assets/img/image-1.png)
 
 ---
 
