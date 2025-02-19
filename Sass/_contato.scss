@@ -30,45 +30,6 @@
   gap: 10rem;
 }
 
-.contato-forms {
-  padding: 6rem 0;
-}
-
-.contato-forms form {
-  width: 500px;
-  display: flex;
-  flex-direction: column;
-  gap: 2rem;
-}
-
-.contato-forms form input,
-textarea {
-  max-width: 100%;
-  padding: 1rem 0.5rem;
-  font-size: 2rem;
-  color: #0000007a;
-  font-family: $font-poppins;
-  border: 4px solid $cor3-fundo;
-  border-radius: 1.2rem;
-}
-
-.contato-forms form button {
-  font-size: 2rem;
-  font-weight: bold;
-  color: $cor2-texto;
-  padding: 1rem 2rem;
-  border: 3px solid $cor4-fundo;
-  border-radius: 1.2rem;
-  background-color: $cor5-fundo;
-  box-shadow: 6px 6px 5px $cor3-fundo;
-  margin: 0 auto;
-  transition: 0.2s ease-in-out;
-}
-
-.contato-forms form button:hover {
-  transform: scale(1.2);
-}
-
 .section-contato div .contato-texto {
   display: block;
   margin: auto 0;
